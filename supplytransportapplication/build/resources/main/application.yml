@@ -1,0 +1,12 @@
+spring:
+  dataSource:
+    connection-timeout: 20000
+    minimum-idle: 10
+    maximum-pool-size: 30
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: changeme
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: false
+
